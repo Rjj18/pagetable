@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300&display=swap');
+
+html body {
+    background-color: rgb(218, 193, 132);
+}
+
+header {
+    background-image: linear-gradient(rgb(61, 80, 146),
+            rgb(52, 53, 58)), url("img/header.svg");
+    color: white;
+    width: 100%;
+    height: 180px;
+    border: none;
+    margin-left: -10px;
+    padding: 0px 20px 0 30px;
+}
+
+#imgheader {
+    margin-top: 10px;
+    border-radius: 400px;
+    width: 150px;
+}
+
+.cabecalho {
+    width: 100%;
+    margin: -10px 0px 0px 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-spacing: 0px;
+}
+
+
+#header2 {
+    font-family: 'Open+Sans';
+    font-weight: bold;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+#header3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    font-size: 35px;
+    font-family: Caveat;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0 40px 0 40px;
+    padding: 15px 15px 15px 15px;
+    font-weight: normal;
+}
+
+#atual{
+    background-color: rgb(51, 51, 49);
+    color: white;
+}
+
+.menu a:hover {
+    background-color: rgb(61, 87, 161);
+    color: rgb(155, 153, 153);
+}
+
+table {
+    width: 80%;
+    margin: 20px auto 20px auto;
+    font-size: 20px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+table a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#apresentacao {
+    border-radius: 50px;
+    background-color: rgb(51, 51, 49);
+    font-size: 30px;
+    font-family: Caveat;
+    color: white;
+    padding-left: 10px;
+}
+
+#roger {
+    font-size: 40px;
+    color: rgb(211, 155, 35);
+    font-family: 'Open+Sans';
+    font-weight: bold;
+}
+
+#frase {
+    color: rgb(205, 202, 223);
+}
+
+#botao1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(61, 87, 161);
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px 15px 15px 15px;
+}
+
+#botao2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(61, 87, 161);
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+}
+
+#pessoa {
+    border-radius: 50px;
+
+}
+
+#pessoaimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+#sou1 {
+    width: 1%;
+    white-space: nowrap;
+}
+
+input, select {
+    width: 300px;
+    height: 20px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
